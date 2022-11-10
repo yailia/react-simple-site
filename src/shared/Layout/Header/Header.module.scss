@@ -1,0 +1,20 @@
+.header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--clr-deep-blue);
+  color: var(--clr-white);
+
+  @media(max-width: 720px) {
+    padding-top: 0.5rem;
+  }
+}
+
+.container_flex {
+  display: flex;
+}
+
+.header__link {
+  margin-top: 0.5rem;
+  margin-left: auto;
+  font-size: 0.875rem;
+}

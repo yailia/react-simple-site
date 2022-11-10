@@ -1,0 +1,24 @@
+.container {
+  margin: 0 auto;
+  max-width: 1220px;
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+
+  @media(max-width: 720px) {
+    max-width: 373px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.container_flex {
+  display: flex;
+}
+
+.container_center {
+  justify-content: center;
+}
+
+.container_wrap {
+  flex-wrap: wrap;
+}

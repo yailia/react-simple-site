@@ -1,0 +1,40 @@
+.logo {
+  color: var(--clr-white)
+}
+
+.logo__main {
+  font-weight: 700;
+  font-size: 1.875rem;
+
+  @media(max-width: 720px) {
+    font-size: 1.5rem;
+  }
+}
+
+.logo__dot {
+  color: var(--clr-orange);
+}
+
+.logo__desc {
+  opacity: 0.8;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  @media(max-width: 720px) {
+    font-size: 0.5625rem;
+  }
+}
+
+.logo_footer {
+  margin: 0 auto;
+  @media(max-width: 720px) {
+    margin: 0;
+  }
+  
+  .logo__main {
+    
+    @media(max-width: 720px) {
+      font-size: 1.875rem;
+    }
+  }
+}

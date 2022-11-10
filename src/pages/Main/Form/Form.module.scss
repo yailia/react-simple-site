@@ -1,0 +1,98 @@
+.formSection {
+  padding: 4rem 2rem 6rem;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  background: var(--clr-deep-blue) url("/src/assets/img/form/house.webp") no-repeat top / cover;
+
+  @media (max-width: 720px) {
+    background-image: none;
+    padding: 1.75rem 1.75rem 3rem;
+  }
+}
+
+.bage {
+  margin-bottom: 1rem;
+  display: flex;
+  background-color: var(--clr-white);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  color: #263238;
+  align-self: center;
+}
+
+.bage__img {
+  margin-right: 0.5rem;
+  content: url("data:image/svg+xml,%0A%3Csvg width='21' height='19' viewBox='0 0 21 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.08 5.5L15.81 3.23C15.88 2.81 15.99 2.42 16.13 2.08C16.21 1.9 16.25 1.71 16.25 1.5C16.25 0.67 15.58 0 14.75 0C13.11 0 11.66 0.79 10.75 2H5.75C2.71 2 0.25 4.46 0.25 7.5C0.25 10.54 2.75 19 2.75 19H8.25V17H10.25V19H15.75L17.43 13.41L20.25 12.47V5.5H18.08ZM11.25 7H6.25V5H11.25V7ZM14.25 9C13.7 9 13.25 8.55 13.25 8C13.25 7.45 13.7 7 14.25 7C14.8 7 15.25 7.45 15.25 8C15.25 8.55 14.8 9 14.25 9Z' fill='%23FA8C16'/%3E%3C/svg%3E%0A");
+}
+
+.formSection__title {
+  margin-bottom: 2.25rem;
+  color: var(--clr-white);
+  font-weight: 700;
+  font-size: 1.5625rem;
+  @media (max-width: 720px) {
+    line-height: 2.25rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.form {
+  padding: 3rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-basis: 978px;
+  border-radius: 1rem;
+  background-color: var(--clr-white);
+  flex-direction: column;
+  @media (max-width: 720px) {
+    padding: 1.5rem 0.25rem;
+  }
+}
+
+.form__container {
+  max-width: 320px;
+}
+
+.form__title {
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.4375rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.form__input {
+  margin-bottom: 1rem;
+}
+
+.bage_mob {
+  display: none;
+
+  @media(max-width: 720px) {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid var(--clr-orange);
+    background-color: #F5F6FE;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    max-width: 327px;
+  }
+}
+
+.bage_dt {
+  display: flex;
+
+  @media(max-width: 720px) {
+    display: none;
+  }
+}
+
+.form__button {
+  max-width: 320px;
+}
